@@ -1,0 +1,311 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17A222-FA2C-4B5F-9838-C79274BB1362}|Controller\\Controller.csproj|c:\\users\\saave\\source\\repos\\control_temperaturas\\controller\\manejador_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17A222-FA2C-4B5F-9838-C79274BB1362}|Controller\\Controller.csproj|solutionrelative:controller\\manejador_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\sensores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\sensores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\sensores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\sensores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\temperaturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\temperaturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\administrar_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\administrar_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17A222-FA2C-4B5F-9838-C79274BB1362}|Controller\\Controller.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\controller\\manejador_sensores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17A222-FA2C-4B5F-9838-C79274BB1362}|Controller\\Controller.csproj|solutionrelative:controller\\manejador_sensores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\temperaturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\temperaturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\administrar_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\administrar_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB17A222-FA2C-4B5F-9838-C79274BB1362}|Controller\\Controller.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\controller\\manejador_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB17A222-FA2C-4B5F-9838-C79274BB1362}|Controller\\Controller.csproj|solutionrelative:controller\\manejador_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\administrar_usuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\administrar_usuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C53214B-3491-4251-B873-BB2274C06CB8}|..\\..\\..\\OneDrive\\Documentos\\Para la otra compu\\4to Semestre\\Desarrollo Sustentable\\ProyectoBasesDatos\\ProyectoBasesDatos\\Acceso_datos\\Acceso_datos.csproj|c:\\users\\saave\\onedrive\\documentos\\para la otra compu\\4to semestre\\desarrollo sustentable\\proyectobasesdatos\\proyectobasesdatos\\acceso_datos\\funciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|C:\\Users\\saave\\source\\repos\\Control_temperaturas\\control_temperaturas\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FCA8F56-BC16-4FAA-BCDB-D96280D65B2F}|Control_temperaturas\\Control_temperaturas.csproj|solutionrelative:control_temperaturas\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 129,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Manejador_sensores.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Controller\\Manejador_sensores.cs",
+              "RelativeDocumentMoniker": "Controller\\Manejador_sensores.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Controller\\Manejador_sensores.cs",
+              "RelativeToolTip": "Controller\\Manejador_sensores.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T13:24:27.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sensores.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Sensores.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Sensores.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Sensores.cs",
+              "RelativeToolTip": "Control_temperaturas\\Sensores.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T03:25:34.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Temperaturas.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Temperaturas.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Temperaturas.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Temperaturas.cs",
+              "RelativeToolTip": "Control_temperaturas\\Temperaturas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T03:27:17.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Manejador_usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Controller\\Manejador_usuarios.cs",
+              "RelativeDocumentMoniker": "Controller\\Manejador_usuarios.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Controller\\Manejador_usuarios.cs",
+              "RelativeToolTip": "Controller\\Manejador_usuarios.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:39:21.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Login.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Login.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Control_temperaturas\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T18:50:21.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Manejador_login.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Controller\\Manejador_login.cs",
+              "RelativeDocumentMoniker": "Controller\\Manejador_login.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Controller\\Manejador_login.cs",
+              "RelativeToolTip": "Controller\\Manejador_login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T00:13:51.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\App.config",
+              "RelativeDocumentMoniker": "Control_temperaturas\\App.config",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\App.config",
+              "RelativeToolTip": "Control_temperaturas\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-04T02:11:38.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Temperaturas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Temperaturas.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Temperaturas.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Temperaturas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Control_temperaturas\\Temperaturas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T00:31:10.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Login.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Login.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Login.cs",
+              "RelativeToolTip": "Control_temperaturas\\Login.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T19:15:58.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Administrar_Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Administrar_Usuarios.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Administrar_Usuarios.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Administrar_Usuarios.cs",
+              "RelativeToolTip": "Control_temperaturas\\Administrar_Usuarios.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:57:32.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Funciones.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\OneDrive\\Documentos\\Para la otra compu\\4to Semestre\\Desarrollo Sustentable\\ProyectoBasesDatos\\ProyectoBasesDatos\\Acceso_datos\\Funciones.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documentos\\Para la otra compu\\4to Semestre\\Desarrollo Sustentable\\ProyectoBasesDatos\\ProyectoBasesDatos\\Acceso_datos\\Funciones.cs",
+              "ToolTip": "C:\\Users\\saave\\OneDrive\\Documentos\\Para la otra compu\\4to Semestre\\Desarrollo Sustentable\\ProyectoBasesDatos\\ProyectoBasesDatos\\Acceso_datos\\Funciones.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documentos\\Para la otra compu\\4to Semestre\\Desarrollo Sustentable\\ProyectoBasesDatos\\ProyectoBasesDatos\\Acceso_datos\\Funciones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T23:11:44.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sensores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Sensores.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Sensores.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Sensores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Control_temperaturas\\Sensores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T23:07:43.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Menu.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Menu.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Menu.cs",
+              "RelativeToolTip": "Control_temperaturas\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T23:02:30.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Menu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Menu.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Menu.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Menu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Control_temperaturas\\Menu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T22:50:14.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Administrar_Usuarios.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Administrar_Usuarios.Designer.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Administrar_Usuarios.Designer.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Administrar_Usuarios.Designer.cs",
+              "RelativeToolTip": "Control_temperaturas\\Administrar_Usuarios.Designer.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAawOYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T21:13:14.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Administrar_Usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Administrar_Usuarios.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Administrar_Usuarios.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Administrar_Usuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Control_temperaturas\\Administrar_Usuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T21:09:07.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Program.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Program.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Program.cs",
+              "RelativeToolTip": "Control_temperaturas\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T19:03:12.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Control_temperaturas\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\saave\\source\\repos\\Control_temperaturas\\Control_temperaturas\\Login.Designer.cs",
+              "RelativeToolTip": "Control_temperaturas\\Login.Designer.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAiwCAAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T19:16:07.419Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
