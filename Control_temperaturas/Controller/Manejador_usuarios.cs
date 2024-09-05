@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Acceso_datos;
+using Acceso; 
 using Microsoft.Win32;
 
 namespace Controller

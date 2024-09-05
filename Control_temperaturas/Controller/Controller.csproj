@@ -49,9 +49,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\OneDrive\Documentos\Para la otra compu\4to Semestre\Desarrollo Sustentable\ProyectoBasesDatos\ProyectoBasesDatos\Acceso_datos\Acceso_datos.csproj">
-      <Project>{5c53214b-3491-4251-b873-bb2274c06cb8}</Project>
-      <Name>Acceso_datos</Name>
+    <ProjectReference Include="..\Acceso\Acceso.csproj">
+      <Project>{5af2da8e-6410-449a-b730-4abd7e742056}</Project>
+      <Name>Acceso</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
