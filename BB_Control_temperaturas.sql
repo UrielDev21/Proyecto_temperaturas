@@ -100,4 +100,22 @@ select * from usuarios;
 create view v_usuarios as 
 select id_usuario, nombre, apellido, nivel, nickname from usuarios; 
 
-select * from v_usuarios where nombre like '%Juan%'; mu
+select * from v_usuarios where nombre like '%Juan%'; 
+
+--Procedimiento almacenado para poder registrar las temperaturas
+
+create procedure p_guardar_temperatura
+(
+    in _num_sensor int, 
+    in _temperatura decimal(5, 2), 
+    in _estado boolean
+)
+begin 
+    insert into sensores (num_sensor, temperatura, estado) values 
+    (_num_sensor, _temperatura, _estado); 
+end; 
+
+
+describe sensores; 
+
+select * from sensores; 

@@ -31,21 +31,18 @@
             this.components = new System.ComponentModel.Container();
             this.chkSensor1 = new System.Windows.Forms.CheckBox();
             this.chkSendor2 = new System.Windows.Forms.CheckBox();
-            this.chkSensor3 = new System.Windows.Forms.CheckBox();
-            this.chkSensor4 = new System.Windows.Forms.CheckBox();
-            this.chkSensor6 = new System.Windows.Forms.CheckBox();
-            this.chkSensor5 = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.lblComprobar = new System.Windows.Forms.Label();
-            this.TimerTemperatura = new System.Windows.Forms.Timer(this.components);
+            this.TimerSensor1 = new System.Windows.Forms.Timer(this.components);
+            this.TimerSensor2 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // chkSensor1
             // 
             this.chkSensor1.AutoSize = true;
-            this.chkSensor1.Location = new System.Drawing.Point(23, 59);
+            this.chkSensor1.Location = new System.Drawing.Point(26, 77);
             this.chkSensor1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.chkSensor1.Name = "chkSensor1";
             this.chkSensor1.Size = new System.Drawing.Size(107, 21);
@@ -57,7 +54,7 @@
             // chkSendor2
             // 
             this.chkSendor2.AutoSize = true;
-            this.chkSendor2.Location = new System.Drawing.Point(213, 59);
+            this.chkSendor2.Location = new System.Drawing.Point(213, 77);
             this.chkSendor2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.chkSendor2.Name = "chkSendor2";
             this.chkSendor2.Size = new System.Drawing.Size(107, 21);
@@ -66,62 +63,10 @@
             this.chkSendor2.UseVisualStyleBackColor = true;
             this.chkSendor2.CheckedChanged += new System.EventHandler(this.chkSendor2_CheckedChanged);
             // 
-            // chkSensor3
-            // 
-            this.chkSensor3.AutoSize = true;
-            this.chkSensor3.Location = new System.Drawing.Point(23, 129);
-            this.chkSensor3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.chkSensor3.Name = "chkSensor3";
-            this.chkSensor3.Size = new System.Drawing.Size(107, 21);
-            this.chkSensor3.TabIndex = 3;
-            this.chkSensor3.Text = "Sensor 3";
-            this.chkSensor3.UseVisualStyleBackColor = true;
-            this.chkSensor3.CheckedChanged += new System.EventHandler(this.chkSensor3_CheckedChanged);
-            // 
-            // chkSensor4
-            // 
-            this.chkSensor4.AutoSize = true;
-            this.chkSensor4.Location = new System.Drawing.Point(213, 129);
-            this.chkSensor4.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.chkSensor4.Name = "chkSensor4";
-            this.chkSensor4.Size = new System.Drawing.Size(107, 21);
-            this.chkSensor4.TabIndex = 4;
-            this.chkSensor4.Text = "Sensor 4";
-            this.chkSensor4.UseVisualStyleBackColor = true;
-            this.chkSensor4.CheckedChanged += new System.EventHandler(this.chkSensor4_CheckedChanged);
-            // 
-            // chkSensor6
-            // 
-            this.chkSensor6.AutoSize = true;
-            this.chkSensor6.Location = new System.Drawing.Point(213, 208);
-            this.chkSensor6.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.chkSensor6.Name = "chkSensor6";
-            this.chkSensor6.Size = new System.Drawing.Size(107, 21);
-            this.chkSensor6.TabIndex = 5;
-            this.chkSensor6.Text = "Sensor 6";
-            this.chkSensor6.UseVisualStyleBackColor = true;
-            this.chkSensor6.CheckedChanged += new System.EventHandler(this.chkSensor6_CheckedChanged);
-            // 
-            // chkSensor5
-            // 
-            this.chkSensor5.AutoSize = true;
-            this.chkSensor5.Location = new System.Drawing.Point(23, 208);
-            this.chkSensor5.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.chkSensor5.Name = "chkSensor5";
-            this.chkSensor5.Size = new System.Drawing.Size(107, 21);
-            this.chkSensor5.TabIndex = 6;
-            this.chkSensor5.Text = "Sensor 5";
-            this.chkSensor5.UseVisualStyleBackColor = true;
-            this.chkSensor5.CheckedChanged += new System.EventHandler(this.chkSensor5_CheckedChanged);
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.chkSensor1);
-            this.groupBox1.Controls.Add(this.chkSensor6);
-            this.groupBox1.Controls.Add(this.chkSensor5);
             this.groupBox1.Controls.Add(this.chkSendor2);
-            this.groupBox1.Controls.Add(this.chkSensor3);
-            this.groupBox1.Controls.Add(this.chkSensor4);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.groupBox1.Location = new System.Drawing.Point(32, 73);
             this.groupBox1.Name = "groupBox1";
@@ -151,9 +96,15 @@
             this.lblComprobar.TabIndex = 9;
             this.lblComprobar.Text = "label1";
             // 
-            // TimerTemperatura
+            // TimerSensor1
             // 
-            this.TimerTemperatura.Interval = 1000;
+            this.TimerSensor1.Interval = 15000;
+            this.TimerSensor1.Tick += new System.EventHandler(this.TimerSensor1_Tick);
+            // 
+            // TimerSensor2
+            // 
+            this.TimerSensor2.Interval = 15000;
+            this.TimerSensor2.Tick += new System.EventHandler(this.TimerSensor2_Tick);
             // 
             // Sensores
             // 
@@ -168,7 +119,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "Sensores";
-            this.Text = "Sensores";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -180,13 +130,10 @@
         #endregion
         private System.Windows.Forms.CheckBox chkSensor1;
         private System.Windows.Forms.CheckBox chkSendor2;
-        private System.Windows.Forms.CheckBox chkSensor3;
-        private System.Windows.Forms.CheckBox chkSensor4;
-        private System.Windows.Forms.CheckBox chkSensor6;
-        private System.Windows.Forms.CheckBox chkSensor5;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Label lblComprobar;
-        private System.Windows.Forms.Timer TimerTemperatura;
+        private System.Windows.Forms.Timer TimerSensor1;
+        private System.Windows.Forms.Timer TimerSensor2;
     }
 }

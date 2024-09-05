@@ -7,16 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Controller;
 
 namespace Control_temperaturas
 {
     public partial class Sensores : Form
     {
+        Manejador_sensores ms = new Manejador_sensores();
 
         public Sensores()
         {
             InitializeComponent();
-            
+            ms = new Manejador_sensores();
+            TimerSensor1.Tick += new EventHandler(TimerSensor1_Tick);
+            TimerSensor2.Tick += new EventHandler(TimerSensor2_Tick);
+
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -28,73 +33,37 @@ namespace Control_temperaturas
         {
             if (chkSensor1.Checked)
             {
-                TimerTemperatura.Start();
+                TimerSensor1.Start();
             }
             else
             {
-                TimerTemperatura.Stop();
+                TimerSensor1.Stop();
             }
         }
 
         private void chkSendor2_CheckedChanged(object sender, EventArgs e)
         {
-            if(chkSendor2.Checked)
+            if (chkSendor2.Checked)
             {
-                TimerTemperatura.Start();
+                TimerSensor2.Start();
             }
             else
             {
-                TimerTemperatura.Stop();
+                TimerSensor2.Stop();
             }
         }
 
-        private void chkSensor3_CheckedChanged(object sender, EventArgs e)
+        private void TimerSensor2_Tick(object sender, EventArgs e)
         {
-            if (chkSensor3.Checked)
-            {
-                TimerTemperatura.Start();
-            }
-            else
-            {
-                TimerTemperatura.Stop();
-            }
-            
+            //ms.GenerarTemperaturas(lblComprobar); 
+            float temperatura = ms.GenerarTemperaturas(); 
+            bool estado = chkSendor2    .Checked;
+            ms.GuardarTemperaturaDB(1, temperatura, estado); 
         }
 
-        private void chkSensor4_CheckedChanged(object sender, EventArgs e)
+        private void TimerSensor1_Tick(object sender, EventArgs e)
         {
-            if(chkSensor4.Checked)
-            {
-                TimerTemperatura.Start();
-            }
-            else
-            {
-                TimerTemperatura.Stop();
-            }
-        }
-
-        private void chkSensor5_CheckedChanged(object sender, EventArgs e)
-        {
-            if (chkSensor5.Checked)
-            {
-                TimerTemperatura.Start();
-            }
-            else
-            {
-                TimerTemperatura.Stop();
-            }
-        }
-
-        private void chkSensor6_CheckedChanged(object sender, EventArgs e)
-        {
-            if (chkSensor6.Checked)
-            {
-                TimerTemperatura.Start();
-            }
-            else
-            {
-                TimerTemperatura.Stop();
-            }
+             
         }
     }
 }
