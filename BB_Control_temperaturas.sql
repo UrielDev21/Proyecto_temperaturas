@@ -119,3 +119,13 @@ end;
 describe sensores; 
 
 select * from sensores; 
+
+-- Vista para poder ver los sensores --
+
+create view v_sensores as 
+select * from sensores; 
+
+select * from v_sensores where num_sensor like '%1%'; 
+
+-- Limpiar la tabla de los sensores --
+truncate sensores; 

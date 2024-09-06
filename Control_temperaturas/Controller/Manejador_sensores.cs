@@ -24,13 +24,19 @@ namespace Controller
         {
             try
             {
-                MessageBox.Show(f.Guardar($"call p_guardar_temperatura({num_sensor}, {temperatura}, {estado})"),
-                "ATENCION", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                f.Guardar($"call p_guardar_temperatura({num_sensor}, {temperatura}, {estado})"); 
             }
             catch (Exception e)
             {
                 MessageBox.Show("Ocurrio algun error", "ATENCION", MessageBoxButtons.OK, MessageBoxIcon.Error); 
             }
+        }
+        public void MostrarSensores(DataGridView tabla, string filtro)
+        {
+            tabla.Columns.Clear();
+            tabla.DataSource = f.Mostrar($"select * from v_sensores where num_sensor like '%{filtro}%'", "sensores").Tables[0]; 
+            tabla.AutoResizeColumns();
+            tabla.AutoResizeRows(); 
         }
     }
 }

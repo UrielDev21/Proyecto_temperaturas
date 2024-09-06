@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,6 @@ namespace Control_temperaturas
         {
             InitializeComponent();
             ms = new Manejador_sensores();
-            TimerSensor1.Tick += new EventHandler(TimerSensor1_Tick);
-            TimerSensor2.Tick += new EventHandler(TimerSensor2_Tick);
-
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -29,6 +27,7 @@ namespace Control_temperaturas
             Close();
         }
 
+        //Evento para activar y desactivar el sensor 1
         private void chkSensor1_CheckedChanged(object sender, EventArgs e)
         {
             if (chkSensor1.Checked)
@@ -40,7 +39,7 @@ namespace Control_temperaturas
                 TimerSensor1.Stop();
             }
         }
-
+        //Evento para activar y desactivar el sensor 2
         private void chkSendor2_CheckedChanged(object sender, EventArgs e)
         {
             if (chkSendor2.Checked)
@@ -53,17 +52,47 @@ namespace Control_temperaturas
             }
         }
 
+        //Evento para activar el timer y llamar el metodo para guardar la temperatura
         private void TimerSensor2_Tick(object sender, EventArgs e)
         {
-            //ms.GenerarTemperaturas(lblComprobar); 
             float temperatura = ms.GenerarTemperaturas(); 
-            bool estado = chkSendor2    .Checked;
-            ms.GuardarTemperaturaDB(1, temperatura, estado); 
+            bool estado = chkSendor2   .Checked;
+            ms.GuardarTemperaturaDB(2, temperatura, estado); 
         }
 
         private void TimerSensor1_Tick(object sender, EventArgs e)
         {
-             
+            float temperatura = ms.GenerarTemperaturas(); 
+            bool estado = chkSensor1.Checked;
+            ms.GuardarTemperaturaDB(1, temperatura, estado); 
+        }
+
+        private void TimerSensor3_Tick(object sender, EventArgs e)
+        {
+            float temperatura = ms.GenerarTemperaturas();
+            bool estado = chkSensor3.Checked;
+            ms.GuardarTemperaturaDB(3, temperatura, estado);
+        }
+
+        private void chkSensor4_CheckedChanged(object sender, EventArgs e)
+        {
+            float temperatura = ms.GenerarTemperaturas();
+            bool estado = chkSensor4.Checked;
+            ms.GuardarTemperaturaDB(4, temperatura, estado);
+        }
+
+        private void chkSensor5_CheckedChanged(object sender, EventArgs e)
+        {
+            float temperatura = ms.GenerarTemperaturas();
+            bool estado = chkSensor5.Checked;
+            ms.GuardarTemperaturaDB(5, temperatura, estado);
+        }
+
+        private void chhkSensor6_CheckedChanged(object sender, EventArgs e)
+        {
+            float temperatura = ms.GenerarTemperaturas();
+            bool estado = chhkSensor6.Checked;
+            ms.GuardarTemperaturaDB(6, temperatura, estado);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Control_temperaturas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(new Sensores());
+                Application.Run(new Login());
         }
     }
 }
