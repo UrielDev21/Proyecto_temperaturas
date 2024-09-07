@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Administrar_Usuarios));
             this.gbDatos = new System.Windows.Forms.GroupBox();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -42,14 +43,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.dtgvUsuarios = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.gbDatos.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvUsuarios)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -180,8 +182,8 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.Beige;
-            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.BackColor = System.Drawing.Color.SlateGray;
+            this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Controls.Add(this.txtBuscar);
             this.groupBox2.Controls.Add(this.dtgvUsuarios);
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -192,23 +194,23 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Consultar usuarios";
             // 
-            // label5
+            // pictureBox1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("OCR A Extended", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(14, 42);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 35);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "🔍";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(17, 35);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(62, 43);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
             // 
             // txtBuscar
             // 
             this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBuscar.Location = new System.Drawing.Point(57, 42);
+            this.txtBuscar.Location = new System.Drawing.Point(85, 42);
             this.txtBuscar.Multiline = true;
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(765, 36);
+            this.txtBuscar.Size = new System.Drawing.Size(737, 36);
             this.txtBuscar.TabIndex = 9;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
@@ -232,6 +234,15 @@
             this.panel1.Size = new System.Drawing.Size(1268, 42);
             this.panel1.TabIndex = 10;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(15, 15);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(268, 17);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Administracion de usuarios";
+            // 
             // btnCerrar
             // 
             this.btnCerrar.Image = global::Control_temperaturas.Properties.Resources.cerrar__2_;
@@ -242,15 +253,6 @@
             this.btnCerrar.TabIndex = 1;
             this.btnCerrar.TabStop = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(15, 15);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(268, 17);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Administracion de usuarios";
             // 
             // Administrar_Usuarios
             // 
@@ -272,6 +274,7 @@
             this.gbDatos.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvUsuarios)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -293,7 +296,6 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.DataGridView dtgvUsuarios;
         private System.Windows.Forms.TextBox txtPass;
@@ -301,5 +303,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
