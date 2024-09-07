@@ -11,8 +11,10 @@ namespace Controller
 {
     public class Manejador_login
     {
+        //Mandar a llamar a la clase funciones
         Funciones f = new Funciones();
 
+        //Metodo para validar el usuario y contraseña
         public string[] Validar(string _nickname, string _pass)
         {
             string[] resultado = new string[2];
@@ -22,6 +24,7 @@ namespace Controller
             resultado[1] = dt.Rows[0]["nivel"].ToString();
             return resultado;
         }
+        //Metodo para encriptar la contraseña
         public static string Sha1(String texto)
         {
             SHA1 sha1 = SHA1CryptoServiceProvider.Create();
@@ -33,14 +36,6 @@ namespace Controller
                 cadena.AppendFormat("{0:x2}", i);
             }
             return cadena.ToString();
-        }
-        public int Obtener_id_usuario(string nickname)
-        {
-            string query = $"select id_usuario from usuarios where nickname = '{nickname}'";
-            string id_Usuario_Str = f.ObtenerDato(query, "usuarios", "id_usuario");
-            int Id_usuario = 0;
-            int.TryParse(id_Usuario_Str, out Id_usuario);
-            return Id_usuario;
         }
     }
 }

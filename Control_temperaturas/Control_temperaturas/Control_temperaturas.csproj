@@ -137,5 +137,14 @@
   <ItemGroup>
     <None Include="Resources\humedad.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acceso %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

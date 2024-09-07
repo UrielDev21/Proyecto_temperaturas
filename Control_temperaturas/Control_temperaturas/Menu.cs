@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace Control_temperaturas
             this.nivelUsuario = nivelUsuario;
             Condicion(); 
         }
+        //Todos estos eventos solo son para presionar un boton y acceder al formulario
 
         private void optSalir_Click(object sender, EventArgs e)
         {
@@ -45,6 +47,9 @@ namespace Control_temperaturas
             temp.Show();
             temp.MdiParent = this;
         }
+
+        /*Metodo para poder validar el nivel de usuario  
+         y dependiendo el nivel se le mostraran distintas opciones*/
         public void Condicion()
         {
             if (nivelUsuario == 1)

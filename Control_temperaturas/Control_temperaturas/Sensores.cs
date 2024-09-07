@@ -60,6 +60,7 @@ namespace Control_temperaturas
             ms.GuardarTemperaturaDB(2, temperatura, estado); 
         }
 
+        //Todos estos eventos solo son para activar el timer de los sensores dependiendo si esta activado o desactivado
         private void TimerSensor1_Tick(object sender, EventArgs e)
         {
             float temperatura = ms.GenerarTemperaturas(); 

@@ -14,11 +14,23 @@ namespace Control_temperaturas
 {
     public partial class Administrar_Usuarios : Form
     {
+        //Mandar a llamar al manejador de los usuarios
         Manejador_usuarios mu = new Manejador_usuarios();
+
+        //Variables para la tabla
         int fila = 0, columna = 0; 
+        
+        //Variables publicas estaticas
         public static int id_usuario = 0;
         public static string nombre = "", apellido = "", nivel = "", nickname = "", pass = "";
 
+        //Evento para el boton cerrar
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Close(); 
+        }
+
+        //Evento para guardar y modificar los registros de la tabla usuarios
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             if(id_usuario > 0)
@@ -32,6 +44,7 @@ namespace Control_temperaturas
             Close(); 
         }
 
+        //Evento para poder agregar los botones de modificar y eliiminar al dataGrid
         private void dtgvUsuarios_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
             fila = e.RowIndex;
@@ -59,6 +72,7 @@ namespace Control_temperaturas
             }
         }
 
+        //Evento para usar un TextBox para usarlo como una barra buscadora
         private void txtBuscar_TextChanged(object sender, EventArgs e)
         {
             dtgvUsuarios.Visible = true; 
@@ -70,6 +84,8 @@ namespace Control_temperaturas
             InitializeComponent();
             mu = new Manejador_usuarios();
         }
+
+        //Otro boton para poder cerrar la ventana
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             Close();

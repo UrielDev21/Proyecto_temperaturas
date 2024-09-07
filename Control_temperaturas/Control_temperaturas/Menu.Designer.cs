@@ -41,7 +41,7 @@
             // toolStrip1
             // 
             this.toolStrip1.AutoSize = false;
-            this.toolStrip1.BackColor = System.Drawing.Color.MintCream;
+            this.toolStrip1.BackColor = System.Drawing.Color.SlateGray;
             this.toolStrip1.Font = new System.Drawing.Font("OCR A Extended", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
@@ -52,7 +52,7 @@
             // 
             // toolStrip2
             // 
-            this.toolStrip2.BackColor = System.Drawing.Color.MintCream;
+            this.toolStrip2.BackColor = System.Drawing.Color.SlateGray;
             this.toolStrip2.Dock = System.Windows.Forms.DockStyle.Left;
             this.toolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {

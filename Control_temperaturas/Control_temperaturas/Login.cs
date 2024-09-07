@@ -13,10 +13,9 @@ namespace Control_temperaturas
 {
     public partial class Login : Form
     {
-        Manejador_login ml;
 
-        public static string Nombre_usuario = "";
-        public static int IDU;
+        //Mandar a llamar al manejador de login
+        Manejador_login ml;
 
         public Login()
         {
@@ -24,11 +23,14 @@ namespace Control_temperaturas
             ml = new Manejador_login();
         }
 
+        //Evento para poder cerrar el programa
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
+        /*Evento para poder validar el usuario y la contraseña
+         usando el metodo de validar del manejador login*/
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string[] r = new string[2];
@@ -46,9 +48,10 @@ namespace Control_temperaturas
             }
 
             }
-        private int Obtener_id_usuario(string nickname)
+        //Evento para mostrar un mensaje presionando un linklabel
+        private void lLOlvide_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            return ml   .Obtener_id_usuario(nickname);
+            MessageBox.Show("Esta opción todavia no esta disponible", "ATENCION!!!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation); 
         }
     }
     }
