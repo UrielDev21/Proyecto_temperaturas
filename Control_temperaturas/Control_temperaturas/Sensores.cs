@@ -95,5 +95,12 @@ namespace Control_temperaturas
             bool estado = chhkSensor6.Checked;
             ms.GuardarTemperaturaDB(6, temperatura, estado);
         }
+
+        private void chkSensor3_CheckedChanged(object sender, EventArgs e)
+        {
+            float temperatura = ms.GenerarTemperaturas(); 
+            bool estado = chkSensor3.Checked;
+            ms.GuardarTemperaturaDB(3, temperatura, estado); 
+        }
     }
 }

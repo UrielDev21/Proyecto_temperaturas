@@ -43,7 +43,7 @@
             // 
             this.txtBuscar.Location = new System.Drawing.Point(61, 58);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(704, 24);
+            this.txtBuscar.Size = new System.Drawing.Size(517, 24);
             this.txtBuscar.TabIndex = 0;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
@@ -54,7 +54,7 @@
             this.dtgvTemperaturas.Location = new System.Drawing.Point(12, 90);
             this.dtgvTemperaturas.Name = "dtgvTemperaturas";
             this.dtgvTemperaturas.ReadOnly = true;
-            this.dtgvTemperaturas.Size = new System.Drawing.Size(753, 423);
+            this.dtgvTemperaturas.Size = new System.Drawing.Size(566, 423);
             this.dtgvTemperaturas.TabIndex = 1;
             // 
             // label1
@@ -70,7 +70,7 @@
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnCerrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCerrar.Location = new System.Drawing.Point(743, 5);
+            this.btnCerrar.Location = new System.Drawing.Point(558, 5);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(37, 37);
             this.btnCerrar.TabIndex = 4;
@@ -85,7 +85,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-4, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(794, 45);
+            this.panel1.Size = new System.Drawing.Size(598, 45);
             this.panel1.TabIndex = 5;
             // 
             // pictureBox1
@@ -103,7 +103,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.ClientSize = new System.Drawing.Size(777, 525);
+            this.ClientSize = new System.Drawing.Size(593, 525);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dtgvTemperaturas);

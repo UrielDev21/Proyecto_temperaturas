@@ -67,7 +67,7 @@
             // 
             this.chkSendor2.AutoSize = true;
             this.chkSendor2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chkSendor2.Location = new System.Drawing.Point(26, 157);
+            this.chkSendor2.Location = new System.Drawing.Point(26, 109);
             this.chkSendor2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.chkSendor2.Name = "chkSendor2";
             this.chkSendor2.Size = new System.Drawing.Size(104, 21);
@@ -122,13 +122,14 @@
             // 
             this.chkSensor3.AutoSize = true;
             this.chkSensor3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chkSensor3.Location = new System.Drawing.Point(26, 109);
+            this.chkSensor3.Location = new System.Drawing.Point(26, 158);
             this.chkSensor3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.chkSensor3.Name = "chkSensor3";
             this.chkSensor3.Size = new System.Drawing.Size(104, 21);
             this.chkSensor3.TabIndex = 4;
             this.chkSensor3.Text = "Sensor 3";
             this.chkSensor3.UseVisualStyleBackColor = true;
+            this.chkSensor3.CheckedChanged += new System.EventHandler(this.chkSensor3_CheckedChanged);
             // 
             // chkSensor4
             // 

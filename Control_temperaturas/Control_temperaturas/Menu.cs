@@ -70,8 +70,8 @@ namespace Control_temperaturas
 
             {
                 optAdministrar_usuarios.Visible = false;
-                optSensores.Visible = false;    
-                optTemperatura.Visible = true;
+                optSensores.Visible = true;    
+                optTemperatura.Visible = false;
                 optSalir.Visible = true; 
             }
         }

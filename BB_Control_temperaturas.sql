@@ -122,8 +122,9 @@ select * from sensores;
 
 -- Vista para poder ver los sensores --
 
+drop view if exists v_sensores;
 create view v_sensores as 
-select * from sensores; 
+select num_sensor, temperatura, fecha_hora from sensores; 
 
 select * from v_sensores where num_sensor like '%1%'; 
 
